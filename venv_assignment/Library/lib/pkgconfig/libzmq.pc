@@ -1,0 +1,12 @@
+prefix=c:/Users/afree/Documents/House_Price_Prediction/venv_assignment/Library
+exec_prefix=c:/Users/afree/Documents/House_Price_Prediction/venv_assignment/Library
+libdir=c:/Users/afree/Documents/House_Price_Prediction/venv_assignment/Library/lib
+includedir=c:/Users/afree/Documents/House_Price_Prediction/venv_assignment/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 

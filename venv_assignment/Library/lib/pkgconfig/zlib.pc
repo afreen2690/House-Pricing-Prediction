@@ -1,0 +1,13 @@
+prefix=c:/Users/afree/Documents/House_Price_Prediction/venv_assignment/Library
+exec_prefix=c:/Users/afree/Documents/House_Price_Prediction/venv_assignment/Library
+libdir=c:/Users/afree/Documents/House_Price_Prediction/venv_assignment/Library/lib
+sharedlibdir=c:/Users/afree/Documents/House_Price_Prediction/venv_assignment/Library/lib
+includedir=c:/Users/afree/Documents/House_Price_Prediction/venv_assignment/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
